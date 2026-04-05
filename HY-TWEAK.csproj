@@ -2,18 +2,10 @@
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>net6.0-windows</TargetFramework>
-    <UseWPF>true</UseWPF>
-    <UseWindowsForms>true</UseWindowsForms>
-    <Nullable>enable</Nullable>
-    <LangVersion>latest</LangVersion>
-    <AssemblyName>HY-TWEAK</AssemblyName>
-    <RootNamespace>HY_TWEAK</RootNamespace>
+    <TargetFramework>net8.0</TargetFramework>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <Version>1.0.0</Version>
+    <Authors>999hyside</Authors>
   </PropertyGroup>
-
-  <ItemGroup>
-    <PackageReference Include="System.Management" Version="7.0.0" />
-    <PackageReference Include="System.Device.Gpio" Version="2.1.0" />
-  </ItemGroup>
 
 </Project>
